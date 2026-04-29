@@ -8,8 +8,6 @@ Build:
     segmentation APIs
     dashboards
 
----------------------------------
-
 -----------------------=========================----------------------
 
 README Format
@@ -41,4 +39,4 @@ Future improvements
     - Known issues/bugs ?
 
 Learnings
-    - Mistakes made and learnings 
+    - Mistakes made and learnings     

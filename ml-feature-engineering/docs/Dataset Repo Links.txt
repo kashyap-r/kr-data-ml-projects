@@ -1,0 +1,30 @@
+Welcome to the UC Irvine Machine Learning Repository
+
+We currently maintain 689 datasets as a service to the machine learning community. Here, you can donate and find datasets used by millions of people all around the world!
+
+https://archive.ics.uci.edu/
+
+From the UCI Machine Learning Repository.
+
+    Bag of words.
+
+    Credit Approval.
+
+    Air Quality.
+
+    Online Retail II Data Set.
+
+    Bank marketing
+
+    Obesity
+	
+From OpenML (https://www.openml.org/)
+
+    Titanic
+		https://www.openml.org/search?type=data&status=active&id=40945&sort=runs
+
+From Kaggle
+	House Sale Price Competition website.
+		https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+	
+	

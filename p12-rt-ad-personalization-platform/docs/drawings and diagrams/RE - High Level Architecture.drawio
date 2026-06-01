@@ -1,0 +1,68 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="VVmcPESbSYHN_uX3Asfo">
+    <mxGraphModel dx="537" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-14" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MQgIpowdjl4PH3MBwXTR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;User / Frontend&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-6" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-7" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MQgIpowdjl4PH3MBwXTR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-8" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MQgIpowdjl4PH3MBwXTR-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="255" />
+              <mxPoint x="440" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Recommendation API&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(FastAPI Gateway)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-21" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="MQgIpowdjl4PH3MBwXTR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="Feature Store&amp;nbsp;&lt;div&gt;Online cache&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-22" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="MQgIpowdjl4PH3MBwXTR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="Retrieval Svc candidate Gen" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-17" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="MQgIpowdjl4PH3MBwXTR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="Ranking Service CTR Prediction" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-23" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="MQgIpowdjl4PH3MBwXTR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="Re-ranking / Business Rules" vertex="1">
+          <mxGeometry height="60" width="200" x="190" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-24" edge="1" parent="1" source="MQgIpowdjl4PH3MBwXTR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="MQgIpowdjl4PH3MBwXTR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="Recommendation API" vertex="1">
+          <mxGeometry height="50" width="120" x="230" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="MQgIpowdjl4PH3MBwXTR-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="Top-N Recommendations" vertex="1">
+          <mxGeometry height="30" width="180" x="200" y="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

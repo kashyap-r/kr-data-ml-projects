@@ -1,0 +1,38 @@
+/mnt/data/financial_statistics_lab/run_tests.py:100: FutureWarning: As of SciPy 1.17, users must choose a p-value calculation method by providing the `method` parameter. `method='interpolate'` interpolates the p-value from pre-calculated tables; `method` may also be an instance of `MonteCarloMethod` to approximate the p-value via Monte Carlo simulation. When `method` is specified, the result object will include a `pvalue` attribute and not attributes `critical_value`, `significance_level`, or `fit_result`. Beginning in 1.19.0, these other attributes will no longer be available, and a p-value will always be computed according to one of the available `method` options.
+  t=stats.anderson(x,dist='norm'); # significance 5% threshold may be interpolated? report critical value comparison not p.
+means           | One-sample t                     | p=0.00057742 | Reject H0
+means           | Welch two-sample t               | p=0.37492 | Fail to reject H0
+means           | Paired t                         | p=9.618e-202 | Reject H0
+means           | One-way ANOVA                    | p=0.064095 | Fail to reject H0
+means           | One-sample z (known sigma)       | p=0.0017602 | Reject H0
+variance        | Classical F variance             | p=1.4131e-36 | Reject H0
+variance        | Levene median                    | p=9.4344e-26 | Reject H0
+variance        | Bartlett                         | p=1.4364e-36 | Reject H0
+proportions     | Two proportion z                 | p=0.00017912 | Reject H0
+proportions     | One proportion z                 | p=0.048702 | Reject H0
+proportions     | Chi-square goodness of fit       | p=2.8498e-10 | Reject H0
+association     | Chi-square independence          | p=0.86297 | Fail to reject H0
+association     | Fisher exact                     | p=0.18528 | Fail to reject H0
+correlation     | Pearson                          | p=4.992e-56 | Reject H0
+correlation     | Spearman                         | p=3.8559e-53 | Reject H0
+correlation     | Kendall tau                      | p=3.4934e-52 | Reject H0
+regression      | Robust coefficient t: digital_score | p=0.38346 | Fail to reject H0
+regression      | Robust coefficient t: monthly_trades | p=0.2255 | Fail to reject H0
+regression      | Overall model F                  | p=2.8235e-73 | Reject H0
+nonparametric   | Wilcoxon signed-rank             | p=6.1869e-175 | Reject H0
+nonparametric   | Mann-Whitney U                   | p=1.9133e-62 | Reject H0
+nonparametric   | Kruskal-Wallis                   | p=0.28069 | Fail to reject H0
+distribution    | Lilliefors normality             | p=0.001 | Reject H0
+distribution    | Jarque-Bera                      | p=4.6419e-27 | Reject H0
+distribution    | Anderson-Darling normality     | statistic=3.4604, 5.0% critical=0.7500 (no p-value)
+distribution    | KS specified N(0,0.01)           | p=0.41052 | Fail to reject H0
+timeseries      | ADF price index                  | p=0.50117 | Fail to reject H0
+timeseries      | KPSS price index                 | p=0.01 | Reject H0
+timeseries      | ADF daily returns                | p=6.9299e-21 | Reject H0
+timeseries      | KPSS daily returns               | p=0.1 | Fail to reject H0
+timeseries      | Ljung-Box returns lag 5          | p=0.67855 | Fail to reject H0
+timeseries      | Ljung-Box returns lag 10         | p=0.21318 | Fail to reject H0
+timeseries      | Ljung-Box returns lag 20         | p=0.39464 | Fail to reject H0
+
+Saved 33 test rows to /mnt/data/financial_statistics_lab/outputs/results.csv and plots to /mnt/data/financial_statistics_lab/outputs
+CAUTION: p < alpha is evidence against H0, not proof of causality or business impact.

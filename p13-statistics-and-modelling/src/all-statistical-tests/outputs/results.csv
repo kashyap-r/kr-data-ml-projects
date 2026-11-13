@@ -1,0 +1,34 @@
+family,test,null_hypothesis,statistic,p_value,decision,business_context
+means,One-sample t,Balanced mean return = 0,3.504777,0.00057742,Reject H0,Test strategy returns vs zero
+means,Welch two-sample t,Balanced mean = Growth mean,-0.888655,0.37491693,Fail to reject H0,Compare independent strategy return samples
+means,Paired t,Mean before-after latency change = 0,-33.455649,0.0,Reject H0,Same clients measured twice
+means,One-way ANOVA,All strategy mean returns equal,2.430149,0.06409534,Fail to reject H0,Compare four strategy returns
+means,One-sample z (known sigma),Balanced mean return = 0,3.127959,0.00176025,Reject H0,Pedagogical only: sigma assumed KNOWN
+variance,Classical F variance,Variance Balanced = Momentum,0.130791,0.0,Reject H0,Requires independent normal samples
+variance,Levene median,Variances equal,129.077995,0.0,Reject H0,Bartlett sensitive to non-normality
+variance,Bartlett,Variances equal,159.525772,0.0,Reject H0,Bartlett sensitive to non-normality
+proportions,Two proportion z,Conversion rates equal,-3.746778,0.00017912,Reject H0,Randomized experiment arms; compare rates
+proportions,One proportion z,Overall conversion rate = 30%,1.97119,0.04870212,Reject H0,Benchmark test; reference rate assumed
+proportions,Chi-square goodness of fit,Asset mix is 40/30/20/10 percent,47.405288,0.0,Reject H0,Compare observed trade mix to policy mix
+association,Chi-square independence,Risk profile and advisory adoption independent,0.294744,0.86297293,Fail to reject H0,Categorical association; not causation
+association,Fisher exact,Complaint probability independent of product,6.176471,0.18528295,Fail to reject H0,Small counts; odds ratio is the statistic
+correlation,Pearson,No corresponding linear/rank association,0.3139,0.0,Reject H0,Digital engagement vs activity; not causality
+correlation,Spearman,No corresponding linear/rank association,0.305842,0.0,Reject H0,Digital engagement vs activity; not causality
+correlation,Kendall tau,No corresponding linear/rank association,0.217145,0.0,Reject H0,Digital engagement vs activity; not causality
+regression,Robust coefficient t: digital_score,Coefficient = 0,0.871544,0.38345729,Fail to reject H0,HC3 heteroskedasticity-robust SE; association not causality
+regression,Robust coefficient t: monthly_trades,Coefficient = 0,1.212027,0.22550218,Fail to reject H0,HC3 heteroskedasticity-robust SE; association not causality
+regression,Overall model F,All non-intercept coefficients = 0,92.560312,0.0,Reject H0,Joint significance with HC3 robust covariance
+nonparametric,Wilcoxon signed-rank,Paired differences symmetric about zero,483229.0,0.0,Reject H0,Ranked paired latency differences; symmetry assumption
+nonparametric,Mann-Whitney U,Group rank distributions same,4282655.5,0.0,Reject H0,Latency distribution across independent engines
+nonparametric,Kruskal-Wallis,Strategy rank distributions same,3.82766,0.28068514,Fail to reject H0,Multiple groups; not automatically a median test
+distribution,Lilliefors normality,Returns are normal with fitted mean/variance,0.070052,0.001,Reject H0,Corrected KS-type test for estimated normal parameters
+distribution,Jarque-Bera,Normal skew and kurtosis,121.269337,0.0,Reject H0,Heavy tails or skew invalidate normality
+distribution,Anderson-Darling,Returns follow a normal distribution,3.460371,,Reject H0 at 5%,"Critical-value inference, not a p-value"
+distribution,"KS specified N(0,0.01)","Returns have fully specified N(0, .01) distribution",0.046308,0.41051573,Fail to reject H0,"Reference mean/std specified externally, not estimated from x"
+timeseries,ADF price index,Unit root present,-1.564952,0.50117136,Fail to reject H0,Rejection supports no unit root under chosen deterministic terms
+timeseries,KPSS price index,Level stationary,2.48111,0.01,Reject H0,p-value often bounded; complement to ADF
+timeseries,ADF daily returns,Unit root present,-11.419487,0.0,Reject H0,Rejection supports no unit root under chosen deterministic terms
+timeseries,KPSS daily returns,Level stationary,0.133465,0.1,Fail to reject H0,p-value often bounded; complement to ADF
+timeseries,Ljung-Box returns lag 5,No autocorrelation up to this lag,3.139092,0.67855191,Fail to reject H0,Multiple lags inspected; account for multiplicity
+timeseries,Ljung-Box returns lag 10,No autocorrelation up to this lag,13.191177,0.21317851,Fail to reject H0,Multiple lags inspected; account for multiplicity
+timeseries,Ljung-Box returns lag 20,No autocorrelation up to this lag,21.042408,0.39464025,Fail to reject H0,Multiple lags inspected; account for multiplicity

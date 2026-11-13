@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     monthly_revenue_usd   R-squared:                       0.254
+Model:                             OLS   Adj. R-squared:                  0.253
+Method:                  Least Squares   F-statistic:                     92.56
+Date:                 Fri, 13 Nov 2026   Prob (F-statistic):           2.82e-73
+Time:                         13:51:09   Log-Likelihood:                -17001.
+No. Observations:                 2400   AIC:                         3.401e+04
+Df Residuals:                     2395   BIC:                         3.404e+04
+Df Model:                            4                                         
+Covariance Type:                   HC3                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+Intercept                     483.5224     24.581     19.671      0.000     435.345     531.699
+C(segment)[T.Mass Affluent]  -201.1851     13.435    -14.975      0.000    -227.517    -174.854
+C(segment)[T.UHNI]            407.6485     49.861      8.176      0.000     309.922     505.375
+digital_score                   0.3307      0.379      0.872      0.383      -0.413       1.075
+monthly_trades                  2.7449      2.265      1.212      0.226      -1.694       7.184
+==============================================================================
+Omnibus:                     1044.859   Durbin-Watson:                   2.035
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            10156.475
+Skew:                           1.797   Prob(JB):                         0.00
+Kurtosis:                      12.416   Cond. No.                         269.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
